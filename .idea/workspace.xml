@@ -22,41 +22,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ff5d8c9-1e63-459a-8d68-0ffd4ae8579b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/custom_types/constants.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/custom_types/custom_types.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/custom_types/enums.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/custom_types/enums_C_like.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/custom_types/enums_linked_list.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/custom_types/enums_use.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/custom_types/mod.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/custom_types/structures.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/primitives/arrays_and_slices.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/primitives/mod.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/aliasing.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/casting.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/inference.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/literals.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/mod.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/types.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/variable_bindings/declare_first.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/variable_bindings/freezing.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/variable_bindings/mod.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/variable_bindings/mutability.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/variable_bindings/scope_and_shadowing.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/variable_bindings/variable_bindings.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hello_world/format.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/hello_world/formatted_print.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hello_world/format_debug.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/hello_world/formatted_print_debug.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hello_world/format_display.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/hello_world/formatted_print_display.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hello_world/format_fmt.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/hello_world/formatted_print_formatting.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hello_world/format_list.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/hello_world/formatted_print_display_list.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hello_world/ignore.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/hello_world/comments.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hello_world/mod.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/hello_world/mod.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/origin/mod.rs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/origin/origin.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/primitives/primitives.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/origin/origin_operators.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/primitives/literals_and_operators.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/origin/origin_tuples.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/primitives/tuples.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +103,7 @@
       <option name="presentableId" value="Default" />
       <updated>1642230548479</updated>
       <workItem from="1642230549655" duration="9516000" />
-      <workItem from="1642299830424" duration="13159000" />
+      <workItem from="1642299830424" duration="14890000" />
     </task>
     <servers />
   </component>

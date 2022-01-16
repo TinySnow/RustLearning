@@ -26,20 +26,31 @@ pub fn main() {
     // 你可以在数字左边补 0。下面语句输出 "000001"。
     println!("{number:>0width$}", number = 1, width = 6);
 
+    /*
+        实现开始：补上参数
+     */
     // println! 会检查使用到的参数数量是否正确。
     println!("My name is {0}, {1} {0}", "Bond", "James");
     // 改正 ^ 补上漏掉的参数："James"
+    /*
+        实现结束：补上参数
+     */
 
     // 创建一个包含单个 `i32` 的结构体（structure）。命名为 `Structure`。
     #[allow(dead_code)]
     struct Structure(i32);
-
+    /*
+        实现开始：注释代码并输出 PI
+     */
     // 但是像结构体这样的自定义类型需要更复杂的方式来处理。
     // 下面语句无法运行。
     // println!("This struct `{}` won't print...", Structure(3));
     // 改正 ^ 注释掉此行。
-
+    println!("============ 实现开始 =============");
     const PI: f64 = 3.141592;
-
     println!("Pi is roughly {:.3}", PI);
+    println!("============ 实现结束 =============");
+    /*
+        实现结束：注释代码并输出 PI
+     */
 }

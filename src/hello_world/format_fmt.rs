@@ -27,13 +27,17 @@ struct Color {
     green: u8,
     blue: u8,
 }
-
+/*
+    实现开始
+ */
 impl fmt::Display for Color {
     fn fmt(&self, f: &mut Formatter<'_>) -> fmt::Result {
         write!(f, "RGB ({}, {}, {}) 0x{0:>02x}{1:>02x}{2:>02x}", self.red, self.green, self.blue)
     }
 }
-
+/*
+    实现结束
+ */
 pub fn main() {
     for city in [
         City { name: "Dublin", lat: 53.347778, lon: -6.259722 },
@@ -42,6 +46,7 @@ pub fn main() {
     ].iter() {
         println!("{}", *city);
     }
+    println!("============ 实现开始 =============");
     for color in [
         Color { red: 128, green: 255, blue: 90 },
         Color { red: 0, green: 3, blue: 254 },
@@ -49,6 +54,14 @@ pub fn main() {
     ].iter() {
         // 在添加了针对 fmt::Display 的实现后，请改用 {} 检验效果。
         println!("{:?}", *color);
-        println!("{}", color)
+        /*
+            实现开始
+         */
+        println!("{}", color);
+        /*
+            实现结束
+         */
     }
+    println!("============ 实现结束 =============");
+
 }

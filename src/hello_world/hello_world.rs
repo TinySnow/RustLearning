@@ -11,4 +11,14 @@ pub fn main() {
 
     // 将文本打印到控制台
     println!("Hello World!");
+    /*
+        实现开始
+     */
+    println!("============ 实现开始 =============");
+    println!("Hello World!");
+    println!("I'm a Rustacean!");
+    println!("============ 实现结束 =============");
+    /*
+        实现结束
+     */
 }

@@ -17,7 +17,6 @@ fn main1() {
             write!(f, "{}", self.0)
         }
     }
-    println!("+++++++++++++++++++++++++++++++++++++++++++++")
 }
 
 use std::fmt;
@@ -73,12 +72,11 @@ fn main2() {
     // 报错。`Debug` 和 `Display` 都被实现了，但 `{:b}` 需要 `fmt::Binary`
     // 得到实现。这语句不能运行。
     // println!("What does Point2D look like in binary: {:b}?", point);
-    println!("+++++++++++++++++++++++++++++++++++++++++++++")
 }
 
 
 /*
-    以下为自己手动实现复数打印
+    实现开始
  */
 #[derive(Debug)]
 struct Complex {
@@ -94,13 +92,20 @@ impl fmt::Display for Complex {
 
 fn main3() {
     let complex = Complex{real: 3.3, imag: 7.2};
+    println!("============ 实现开始 =============");
     println!("Display: {}", complex);
     println!("Debug: {:?}", complex);
-    println!("+++++++++++++++++++++++++++++++++++++++++++++")
+    println!("============ 实现结束 =============");
 }
-
+/*
+    实现结束
+ */
 pub fn main() {
     main1();
+    println!("++++++++++++++++++++ main1 结束 +++++++++++++++++++++++++");
     main2();
+    println!("++++++++++++++++++++ main2 结束 +++++++++++++++++++++++++");
     main3();
+    println!("++++++++++++++++++++ main3 结束 +++++++++++++++++++++++++");
+
 }

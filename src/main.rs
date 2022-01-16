@@ -18,4 +18,8 @@ fn main() {
     println!("----------------------- hello_world::format_fmt::main(); 结束 --------------------------");
     origin::origin::main();
     println!("----------------------- origin::origin::main(); 结束 --------------------------");
+    origin::origin_operators::main();
+    println!("----------------------- origin::origin_operators::main(); 结束 --------------------------");
+    origin::origin_tuples::main();
+    println!("----------------------- origin::origin_tuples::main(); 结束 --------------------------");
 }

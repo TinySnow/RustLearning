@@ -22,16 +22,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ff5d8c9-1e63-459a-8d68-0ffd4ae8579b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/primitives/mod.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hello_world/format.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/hello_world/format.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hello_world/format_debug.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/hello_world/format_debug.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hello_world/format_display.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/hello_world/format_display.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hello_world/format_fmt.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/hello_world/format_fmt.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hello_world/format_list.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/hello_world/format_list.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hello_world/hello_world.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/hello_world/hello_world.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hello_world/format.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/hello_world/formatted_print.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hello_world/format_debug.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/hello_world/formatted_print_debug.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hello_world/format_display.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/hello_world/formatted_print_display.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hello_world/format_fmt.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/hello_world/formatted_print_formatting.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hello_world/format_list.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/hello_world/formatted_print_display_list.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hello_world/ignore.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/hello_world/comments.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hello_world/mod.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/hello_world/mod.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/origin/mod.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/origin/mod.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/origin/origin.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/origin/origin.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/origin/mod.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/origin/origin.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/primitives/primitives.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/origin/origin_operators.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/primitives/literals_and_operators.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/origin/origin_tuples.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/primitives/tuples.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +115,7 @@
       <option name="presentableId" value="Default" />
       <updated>1642230548479</updated>
       <workItem from="1642230549655" duration="9516000" />
-      <workItem from="1642299830424" duration="3350000" />
+      <workItem from="1642299830424" duration="12850000" />
     </task>
     <servers />
   </component>
@@ -139,21 +143,21 @@
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="468" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1474.864@0.0.1474.864" timestamp="1642233286804" />
-    <state width="1431" height="224" key="GridCell.Tab.0.bottom" timestamp="1642303172057">
+    <state width="1431" height="224" key="GridCell.Tab.0.bottom" timestamp="1642313616744">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="224" key="GridCell.Tab.0.bottom/0.0.1474.864@0.0.1474.864" timestamp="1642303172057" />
-    <state width="1431" height="224" key="GridCell.Tab.0.center" timestamp="1642303172057">
+    <state width="1431" height="224" key="GridCell.Tab.0.bottom/0.0.1474.864@0.0.1474.864" timestamp="1642313616744" />
+    <state width="1431" height="224" key="GridCell.Tab.0.center" timestamp="1642313616743">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="224" key="GridCell.Tab.0.center/0.0.1474.864@0.0.1474.864" timestamp="1642303172057" />
-    <state width="1431" height="224" key="GridCell.Tab.0.left" timestamp="1642303172057">
+    <state width="1431" height="224" key="GridCell.Tab.0.center/0.0.1474.864@0.0.1474.864" timestamp="1642313616743" />
+    <state width="1431" height="224" key="GridCell.Tab.0.left" timestamp="1642313616743">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="224" key="GridCell.Tab.0.left/0.0.1474.864@0.0.1474.864" timestamp="1642303172057" />
-    <state width="1431" height="224" key="GridCell.Tab.0.right" timestamp="1642303172057">
+    <state width="1431" height="224" key="GridCell.Tab.0.left/0.0.1474.864@0.0.1474.864" timestamp="1642313616743" />
+    <state width="1431" height="224" key="GridCell.Tab.0.right" timestamp="1642313616744">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="224" key="GridCell.Tab.0.right/0.0.1474.864@0.0.1474.864" timestamp="1642303172057" />
+    <state width="1431" height="224" key="GridCell.Tab.0.right/0.0.1474.864@0.0.1474.864" timestamp="1642313616744" />
   </component>
 </project>

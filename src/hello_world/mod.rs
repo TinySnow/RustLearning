@@ -1,7 +1,7 @@
 pub mod hello_world;
-pub mod ignore;
-pub mod format;
-pub mod format_debug;
-pub mod format_display;
-pub mod format_list;
-pub mod format_fmt;
+pub mod comments;
+pub mod formatted_print;
+pub mod formatted_print_debug;
+pub mod formatted_print_display;
+pub mod formatted_print_display_list;
+pub mod formatted_print_formatting;

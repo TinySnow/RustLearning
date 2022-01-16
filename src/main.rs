@@ -3,6 +3,11 @@ mod primitives;
 mod custom_types;
 mod variable_bindings;
 mod types;
+mod conversion;
+mod expressions;
+mod flow_of_control;
+mod functions;
+
 
 fn main() {
     hello_world::hello_world::main();
@@ -61,4 +66,53 @@ fn main() {
     println!("----------------------- types::inference::main(); 结束 --------------------------");
     types::aliasing::main();
     println!("----------------------- types::aliasing::main(); 结束 --------------------------");
+    conversion::conversion::main();
+    println!("----------------------- conversion::conversion::main(); 结束 --------------------------");
+    conversion::from_and_into::main();
+    println!("----------------------- conversion::from_and_into::main(); 结束 --------------------------");
+    conversion::tryfrom_and_tryinto::main();
+    println!("----------------------- conversion::tryfrom_and_tryinto::main(); 结束 --------------------------");
+    conversion::to_and_from_strings::main();
+    println!("----------------------- conversion::to_and_from_strings::main(); 结束 --------------------------");
+    expressions::expressions::main();
+    println!("----------------------- expressions::expressions::main(); 结束 --------------------------");
+    flow_of_control::flow_of_control::main();
+    println!("----------------------- flow_of_control::flow_of_control::main(); 结束 --------------------------");
+    flow_of_control::if_and_else::main();
+    println!("----------------------- flow_of_control::if_and_else::main(); 结束 --------------------------");
+    flow_of_control::loops::main();
+    println!("----------------------- flow_of_control::loops::main(); 结束 --------------------------");
+    flow_of_control::loops_nesting_and_labels::main();
+    println!("----------------------- flow_of_control::loops_nesting_and_labels::main(); 结束 --------------------------");
+    flow_of_control::loops_returning_from_loops::main();
+    println!("----------------------- flow_of_control::loops_returning_from_loops::main(); 结束 --------------------------");
+    flow_of_control::whiles::main();
+    println!("----------------------- flow_of_control::whiles::main(); 结束 --------------------------");
+    flow_of_control::for_and_range::main();
+    println!("----------------------- flow_of_control::for_and_range::main(); 结束 --------------------------");
+    flow_of_control::_match::main();
+    println!("----------------------- flow_of_control::_match::main(); 结束 --------------------------");
+    flow_of_control::_match_destructuring::main();
+    println!("----------------------- flow_of_control::_match_destructuring::main(); 结束 --------------------------");
+    flow_of_control::_match_destructuring_tuples::main();
+    println!("----------------------- flow_of_control::_match_destructuring_tuples::main(); 结束 --------------------------");
+    flow_of_control::_match_destructuring_enums::main();
+    println!("----------------------- flow_of_control::_match_destructuring_enums::main(); 结束 --------------------------");
+    flow_of_control::_match_destructuring_pointers_and_ref::main();
+    println!("----------------------- flow_of_control::_match_destructuring_pointers_and_ref::main(); 结束 --------------------------");
+    flow_of_control::_match_destructuring_structs::main();
+    println!("----------------------- flow_of_control::_match_destructuring_structs::main(); 结束 --------------------------");
+    flow_of_control::_match_guards::main();
+    println!("----------------------- flow_of_control::_match_guards::main(); 结束 --------------------------");
+    flow_of_control::_match_binding::main();
+    println!("----------------------- flow_of_control::_match_binding::main(); 结束 --------------------------");
+    flow_of_control::if_let::main();
+    println!("----------------------- flow_of_control::if_let::main(); 结束 --------------------------");
+    flow_of_control::while_let::main();
+    println!("----------------------- flow_of_control::while_let::main(); 结束 --------------------------");
+    functions::functions::main();
+    println!("----------------------- functions::functions::main(); 结束 --------------------------");
+
+
+
 }

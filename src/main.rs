@@ -7,6 +7,10 @@ mod conversion;
 mod expressions;
 mod flow_of_control;
 mod functions;
+mod modules;
+mod use_crate;
+mod use_cargo;
+mod attributes;
 
 
 fn main() {
@@ -112,6 +116,52 @@ fn main() {
     println!("----------------------- flow_of_control::while_let::main(); 结束 --------------------------");
     functions::functions::main();
     println!("----------------------- functions::functions::main(); 结束 --------------------------");
+    functions::methods::main();
+    println!("----------------------- functions::methods::main(); 结束 --------------------------");
+    functions::closures::main();
+    println!("----------------------- functions::closures::main(); 结束 --------------------------");
+    functions::closures_capturing::main();
+    println!("----------------------- functions::closures_capturing::main(); 结束 --------------------------");
+    functions::closures_as_input_parameters::main();
+    println!("----------------------- functions::closures_as_input_parameters::main(); 结束 --------------------------");
+    functions::closures_type_anonymity::main();
+    println!("----------------------- functions::closures_type_anonymity::main(); 结束 --------------------------");
+    functions::closures_input_functions::main();
+    println!("----------------------- functions::closures_input_functions::main(); 结束 --------------------------");
+    functions::closures_as_output_parameters::main();
+    println!("----------------------- functions::closures_as_output_parameters::main(); 结束 --------------------------");
+    functions::closures_examples_in_std::main();
+    println!("----------------------- functions::closures_examples_in_std::main(); 结束 --------------------------");
+    functions::closures_examples_in_std_iterator_any::main();
+    println!("----------------------- functions::closures_examples_in_std_iterator_any::main(); 结束 --------------------------");
+    functions::closures_examples_in_std_searching_through_iterators::main();
+    println!("----------------------- functions::closures_examples_in_std_searching_through_iterators::main(); 结束 --------------------------");
+    functions::higher_order_functions::main();
+    println!("----------------------- functions::higher_order_functions::main(); 结束 --------------------------");
+    functions::diverging_functions::main();
+    println!("----------------------- functions::diverging_functions::main(); 结束 --------------------------");
+    modules::modules::main();
+    println!("----------------------- modules::modules::main(); 结束 --------------------------");
+    modules::visibility::main();
+    println!("----------------------- modules::visibility::main(); 结束 --------------------------");
+    modules::structs_visibility::main();
+    println!("----------------------- modules::structs_visibility::main(); 结束 --------------------------");
+    modules::the_use_declaration::main();
+    println!("----------------------- modules::the_use_declaration::main(); 结束 --------------------------");
+    modules::super_and_self::main();
+    println!("----------------------- modules::super_and_self::main(); 结束 --------------------------");
+    modules::file_hierarchy::main();
+    println!("----------------------- modules::file_hierarchy::main(); 结束 --------------------------");
+    // use_crate::rary::main();
+    // println!("----------------------- use_crate::rary::main(); 结束 --------------------------");
+    // use_crate::executable::main();
+    // println!("----------------------- use_crate::executable::main(); 结束 --------------------------");
+    use_cargo::use_cargo::main();
+    println!("----------------------- use_cargo::use_cargo::main(); 结束 --------------------------");
+    attributes::attributes::main();
+    println!("----------------------- attributes::attributes::main(); 结束 --------------------------");
+    attributes::dead_code::main();
+    println!("----------------------- attributes::dead_code::main(); 结束 --------------------------");
 
 
 

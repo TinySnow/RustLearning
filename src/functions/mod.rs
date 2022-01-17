@@ -1,1 +1,13 @@
 pub mod functions;
+pub mod methods;
+pub mod closures;
+pub mod closures_capturing;
+pub mod closures_as_input_parameters;
+pub mod closures_type_anonymity;
+pub mod closures_input_functions;
+pub mod closures_as_output_parameters;
+pub mod closures_examples_in_std;
+pub mod closures_examples_in_std_iterator_any;
+pub mod closures_examples_in_std_searching_through_iterators;
+pub mod higher_order_functions;
+pub mod diverging_functions;

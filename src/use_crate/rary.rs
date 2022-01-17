@@ -5,6 +5,11 @@
 /// rustc --crate-type=lib src/use_crate/rary.rs
 /// 生成的 lib 文件在 src 同级目录
 ///
+///
+// // 这个 crate 是一个库文件
+// #![crate_type = "lib"]
+// // 库的名称为 “rary”
+// #![crate_name = "rary"]
 
 pub fn public_function() {
     println!("called rary's `public_function()`");

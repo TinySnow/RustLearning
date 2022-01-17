@@ -11,6 +11,7 @@ mod modules;
 mod use_crate;
 mod use_cargo;
 mod attributes;
+mod generics;
 
 
 fn main() {
@@ -162,6 +163,20 @@ fn main() {
     println!("----------------------- attributes::attributes::main(); 结束 --------------------------");
     attributes::dead_code::main();
     println!("----------------------- attributes::dead_code::main(); 结束 --------------------------");
+    attributes::use_cfg::main();
+    println!("----------------------- attributes::use_cfg::main(); 结束 --------------------------");
+    // attributes::use_cfg_custom::main();
+    // println!("----------------------- attributes::use_cfg_custom::main(); 结束 --------------------------");
+    generics::generics::main();
+    println!("----------------------- generics::generics::main(); 结束 --------------------------");
+    generics::functions::main();
+    println!("----------------------- generics::functions::main(); 结束 --------------------------");
+    generics::implementation::main();
+    println!("----------------------- generics::implementation::main(); 结束 --------------------------");
+    generics::_trait::main();
+    println!("----------------------- generics::_trait::main(); 结束 --------------------------");
+    generics::bounds::main();
+    println!("----------------------- generics::bounds::main(); 结束 --------------------------");
 
 
 

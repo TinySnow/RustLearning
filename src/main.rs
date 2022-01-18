@@ -13,6 +13,7 @@ mod use_cargo;
 mod attributes;
 mod generics;
 mod scoping_rules;
+mod traits;
 
 
 fn main() {
@@ -234,7 +235,8 @@ fn main() {
     println!("----------------------- scoping_rules::lifetimes_static::main(); 结束 --------------------------");
     scoping_rules::lifetimes_elision::main();
     println!("----------------------- scoping_rules::lifetimes_elision::main(); 结束 --------------------------");
-
+    traits::traits::main();
+    println!("----------------------- traits::traits::main(); 结束 --------------------------");
 
 
 }

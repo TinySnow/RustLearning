@@ -12,6 +12,7 @@ mod use_crate;
 mod use_cargo;
 mod attributes;
 mod generics;
+mod scoping_rules;
 
 
 fn main() {
@@ -177,6 +178,62 @@ fn main() {
     println!("----------------------- generics::_trait::main(); 结束 --------------------------");
     generics::bounds::main();
     println!("----------------------- generics::bounds::main(); 结束 --------------------------");
+    generics::bounds_empty_bounds::main();
+    println!("----------------------- generics::bounds_empty_bounds::main(); 结束 --------------------------");
+    generics::multiple_bounds::main();
+    println!("----------------------- generics::multiple_bounds::main(); 结束 --------------------------");
+    generics::where_clauses::main();
+    println!("----------------------- generics::where_clauses::main(); 结束 --------------------------");
+    generics::new_type_idioms::main();
+    println!("----------------------- generics::new_type_idioms::main(); 结束 --------------------------");
+    generics::associated_items::main();
+    println!("----------------------- generics::associated_item::main(); 结束 --------------------------");
+    generics::associated_items_the_problems::main();
+    println!("----------------------- generics::associated_item_the_problems::main(); 结束 --------------------------");
+    generics::associated_items_associated_types::main();
+    println!("----------------------- generics::associated_items_associated_types::main(); 结束 --------------------------");
+    generics::phantom_type_parameters::main();
+    println!("----------------------- generics::phantom_type_parameters::main(); 结束 --------------------------");
+    generics::phantom_type_parameters_unit_clarification::main();
+    println!("----------------------- generics::phantom_type_parameters_unit_clarification::main(); 结束 --------------------------");
+    scoping_rules::scoping_rules::main();
+    println!("----------------------- scoping_rules::scoping_rules::main(); 结束 --------------------------");
+    scoping_rules::raii::main();
+    println!("----------------------- scoping_rules::raii::main(); 结束 --------------------------");
+    scoping_rules::ownership_and_moves::main();
+    println!("----------------------- scoping_rules::ownership_and_moves::main(); 结束 --------------------------");
+    scoping_rules::ownership_and_moves_mutability::main();
+    println!("----------------------- scoping_rules::ownership_and_moves_mutability::main(); 结束 --------------------------");
+    scoping_rules::ownership_and_moves_partial_moves::main();
+    println!("----------------------- scoping_rules::ownership_and_moves_partial_moves::main(); 结束 --------------------------");
+    scoping_rules::borrowing::main();
+    println!("----------------------- scoping_rules::borrowing::main(); 结束 --------------------------");
+    scoping_rules::borrowing_mutability::main();
+    println!("----------------------- scoping_rules::borrowing_mutability::main(); 结束 --------------------------");
+    scoping_rules::borrowing_aliasing::main();
+    println!("----------------------- scoping_rules::borrowing_aliasing::main(); 结束 --------------------------");
+    scoping_rules::borrowing_the_ref_pattern::main();
+    println!("----------------------- scoping_rules::borrowing_the_ref_pattern::main(); 结束 --------------------------");
+    scoping_rules::lifetimes::main();
+    println!("----------------------- scoping_rules::lifetimes::main(); 结束 --------------------------");
+    scoping_rules::lifetimes_explicit_annotation::main();
+    println!("----------------------- scoping_rules::lifetimes_explicit_annotation::main(); 结束 --------------------------");
+    scoping_rules::lifetimes_functions::main();
+    println!("----------------------- scoping_rules::lifetimes_functions::main(); 结束 --------------------------");
+    scoping_rules::lifetimes_methods::main();
+    println!("----------------------- scoping_rules::lifetimes_methods::main(); 结束 --------------------------");
+    scoping_rules::lifetimes_structs::main();
+    println!("----------------------- scoping_rules::lifetimes_structs::main(); 结束 --------------------------");
+    scoping_rules::lifetimes_trait::main();
+    println!("----------------------- scoping_rules::lifetimes_trait::main(); 结束 --------------------------");
+    scoping_rules::lifetimes_bounds::main();
+    println!("----------------------- scoping_rules::lifetimes_bounds::main(); 结束 --------------------------");
+    scoping_rules::lifetimes_coercion::main();
+    println!("----------------------- scoping_rules::lifetimes_coercion::main(); 结束 --------------------------");
+    scoping_rules::lifetimes_static::main();
+    println!("----------------------- scoping_rules::lifetimes_static::main(); 结束 --------------------------");
+    scoping_rules::lifetimes_elision::main();
+    println!("----------------------- scoping_rules::lifetimes_elision::main(); 结束 --------------------------");
 
 
 

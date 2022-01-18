@@ -46,8 +46,40 @@ println!("============ 实现结束 =============");
 
 #### English:
 
-All the comment is copied from &lt;Rust By Example>(Chinese Simplified version). 
+- All the comment is copied from &lt;Rust By Example>(Chinese Simplified version). 
+
+- Package modules -> File file_hierarchy.rs:
+
+    - This project is in file-hierarchical, so we pass this section.
+
+- Package use_crate:
+
+    - File name do NOT follow the official docs' content name, cause the compile command won't work if we do so.
+    
+    - The compile command is given in each file's comment.(The comment uses Chinese and does NOT provide English version.)
+    
+    - The compile command is nothing changed but the path, comparing the official doc's command.
+    
+- Package use_cargo:
+    
+    - Cause using cargo, this section is not about the code, so we pass.
 
 #### Chinese：
 
-所有注释是从《通过例子学 Rust 中文版》中拷贝而来的。
+- 所有注释是从《通过例子学 Rust 中文版》中拷贝而来的。
+
+- modules 包 -> file_hierarchy.rs 文件：
+
+    - 该工程已经文件分层，所以跳过此节。
+
+- use_crate 包：
+
+    - 文件命名不遵守官方文档的目录命名，因为按此做法编译命令不会工作。
+    
+    - 编译命令已在每个文件的注释中给出。（注释使用中文，并且不提供英文版本。）
+    
+    - 编译命令与官方文档上的相比，除了路径不同，其他没有区别。
+    
+- use_cargo 包：
+
+    - 因为此节使用 cargo，无关于代码，所以跳过。

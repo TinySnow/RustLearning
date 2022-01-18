@@ -56,7 +56,7 @@ println!("============ 实现结束 =============");
 
     - File name do NOT follow the official docs' content name, cause the compile command won't work if we do so.
     
-    - The compile command is given in each file's comment.(The comment uses Chinese and does NOT provide English version.)
+    - The compile command is given in each file's comment. (The comment uses Chinese and does NOT provide English version.)
     
     - The compile command is nothing changed but the path, comparing the official doc's command.
     

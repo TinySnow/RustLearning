@@ -3,3 +3,4 @@ pub mod syntax;
 pub mod syntax_designators;
 pub mod syntax_overload;
 pub mod syntax_repeat;
+pub mod dry;

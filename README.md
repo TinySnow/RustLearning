@@ -54,7 +54,7 @@ println!("============ 实现结束 =============");
 
 - Package use_crate:
 
-    - File name do NOT follow the official docs' content name, cause the compile command won't work if we do so.
+    - File name does <font color=red>NOT</font> follow the official docs' content name, cause the compile command won't work if we do so.
     
     - The compile command is given in each file's comment. (The comment uses Chinese and does NOT provide English version.)
     
@@ -63,6 +63,10 @@ println!("============ 实现结束 =============");
 - Package use_cargo:
     
     - Cause using cargo, this section is not about the code, so we pass.
+
+- Package macro_rules -> File dry.rs:
+
+    - Is <font color=red>NOT</font> included in the main function because it can run as a test;
 
 #### Chinese：
 
@@ -74,7 +78,7 @@ println!("============ 实现结束 =============");
 
 - use_crate 包：
 
-    - 文件命名不遵守官方文档的目录命名，因为按此做法编译命令不会工作。
+    - 文件命名<font color=red>不遵守</font>官方文档的目录命名，因为按此做法编译命令不会工作。
     
     - 编译命令已在每个文件的注释中给出。（注释使用中文，并且不提供英文版本。）
     
@@ -83,3 +87,7 @@ println!("============ 实现结束 =============");
 - use_cargo 包：
 
     - 因为此节使用 cargo，无关于代码，所以跳过。
+    
+- macro_rules 包 -> dry.rs 文件：
+
+    - <font color=red>不包含</font>在程序主函数中运行，因为它可以作为一个测试独立运行。

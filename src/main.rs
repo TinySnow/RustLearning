@@ -266,5 +266,7 @@ fn main() {
     println!("----------------------- macro_rules::syntax_overload::main(); 结束 --------------------------");
     macro_rules::syntax_repeat::main();
     println!("----------------------- macro_rules::syntax_repeat::main(); 结束 --------------------------");
+    // macro_rules::dry::main();
+    // println!("----------------------- macro_rules::dry::main(); 结束 --------------------------");
 
 }

@@ -4,3 +4,7 @@ pub mod returning_traits_with_dyn;
 pub mod operator_overloading;
 pub mod drop;
 pub mod iterators;
+pub mod impl_trait;
+pub mod clone;
+pub mod supertraits;
+pub mod disambiguating_overlapping_traits;

@@ -14,6 +14,7 @@ mod attributes;
 mod generics;
 mod scoping_rules;
 mod traits;
+mod macro_rules;
 
 
 fn main() {
@@ -247,6 +248,23 @@ fn main() {
     println!("----------------------- traits::drop::main(); 结束 --------------------------");
     traits::iterators::main();
     println!("----------------------- traits::iterators::main(); 结束 --------------------------");
-
+    traits::impl_trait::main();
+    println!("----------------------- traits::iterators::main(); 结束 --------------------------");
+    traits::clone::main();
+    println!("----------------------- traits::clone::main(); 结束 --------------------------");
+    traits::supertraits::main();
+    println!("----------------------- traits::supertraits::main(); 结束 --------------------------");
+    traits::disambiguating_overlapping_traits::main();
+    println!("----------------------- traits::disambiguating_overlapping_traits::main(); 结束 --------------------------");
+    macro_rules::macro_rules::main();
+    println!("----------------------- macro_rules::macro_rules::main(); 结束 --------------------------");
+    macro_rules::syntax::main();
+    println!("----------------------- macro_rules::syntax::main(); 结束 --------------------------");
+    macro_rules::syntax_designators::main();
+    println!("----------------------- macro_rules::syntax_designators::main(); 结束 --------------------------");
+    macro_rules::syntax_overload::main();
+    println!("----------------------- macro_rules::syntax_overload::main(); 结束 --------------------------");
+    macro_rules::syntax_repeat::main();
+    println!("----------------------- macro_rules::syntax_repeat::main(); 结束 --------------------------");
 
 }

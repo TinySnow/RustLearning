@@ -15,6 +15,7 @@ mod generics;
 mod scoping_rules;
 mod traits;
 mod macro_rules;
+mod error_handling;
 
 
 fn main() {
@@ -268,5 +269,20 @@ fn main() {
     println!("----------------------- macro_rules::syntax_repeat::main(); 结束 --------------------------");
     // macro_rules::dry::main();
     // println!("----------------------- macro_rules::dry::main(); 结束 --------------------------");
+    macro_rules::dsl::main();
+    println!("----------------------- macro_rules::dsl::main(); 结束 --------------------------");
+    macro_rules::variadic_interfaces::main();
+    println!("----------------------- macro_rules::variadic_interfaces::main(); 结束 --------------------------");
+    error_handling::error_handling::main();
+    println!("----------------------- error_handling::error_handling::main(); 结束 --------------------------");
+    error_handling::panic::main();
+    println!("----------------------- error_handling::panic::main(); 结束 --------------------------");
+    error_handling::option_and_unwrap::main();
+    println!("----------------------- error_handling::option_and_unwrap::main(); 结束 --------------------------");
+    error_handling::option_and_unwrap_unpacking_options_with_question_mark::main();
+    println!("----------------------- error_handling::option_and_unwrap_unpacking_options_with_question_mark::main(); 结束 --------------------------");
+    error_handling::option_and_unwrap_map_combinator::main();
+    println!("----------------------- error_handling::option_and_unwrap_map_combinator::main(); 结束 --------------------------");
+
 
 }

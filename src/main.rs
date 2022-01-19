@@ -237,6 +237,16 @@ fn main() {
     println!("----------------------- scoping_rules::lifetimes_elision::main(); 结束 --------------------------");
     traits::traits::main();
     println!("----------------------- traits::traits::main(); 结束 --------------------------");
+    traits::derive::main();
+    println!("----------------------- traits::derive::main(); 结束 --------------------------");
+    traits::returning_traits_with_dyn::main();
+    println!("----------------------- traits::returning_traits_with_dyn::main(); 结束 --------------------------");
+    traits::operator_overloading::main();
+    println!("----------------------- traits::operator_overloading::main(); 结束 --------------------------");
+    traits::drop::main();
+    println!("----------------------- traits::drop::main(); 结束 --------------------------");
+    traits::iterators::main();
+    println!("----------------------- traits::iterators::main(); 结束 --------------------------");
 
 
 }

@@ -23,8 +23,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7ff5d8c9-1e63-459a-8d68-0ffd4ae8579b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/file_hierarchy.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/file_hierarchy.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/traits/mod.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/traits/mod.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,11 +65,6 @@
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Run learning" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="command" value="run --package learning --bin learning" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
@@ -83,6 +78,11 @@
       <option name="redirectInputPath" value="" />
       <method v="2">
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
@@ -106,7 +106,8 @@
       <workItem from="1642230549655" duration="9516000" />
       <workItem from="1642299830424" duration="22927000" />
       <workItem from="1642388249931" duration="10112000" />
-      <workItem from="1642475925055" duration="10105000" />
+      <workItem from="1642475925055" duration="10405000" />
+      <workItem from="1642566836846" duration="1626000" />
     </task>
     <servers />
   </component>
@@ -138,21 +139,21 @@
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="468" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1474.864@0.0.1474.864" timestamp="1642233286804" />
-    <state width="1431" height="224" key="GridCell.Tab.0.bottom" timestamp="1642492265223">
+    <state width="1431" height="224" key="GridCell.Tab.0.bottom" timestamp="1642493952801">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="224" key="GridCell.Tab.0.bottom/0.0.1474.864@0.0.1474.864" timestamp="1642492265223" />
-    <state width="1431" height="224" key="GridCell.Tab.0.center" timestamp="1642492265222">
+    <state width="1431" height="224" key="GridCell.Tab.0.bottom/0.0.1474.864@0.0.1474.864" timestamp="1642493952801" />
+    <state width="1431" height="224" key="GridCell.Tab.0.center" timestamp="1642493952801">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="224" key="GridCell.Tab.0.center/0.0.1474.864@0.0.1474.864" timestamp="1642492265222" />
-    <state width="1431" height="224" key="GridCell.Tab.0.left" timestamp="1642492265222">
+    <state width="1431" height="224" key="GridCell.Tab.0.center/0.0.1474.864@0.0.1474.864" timestamp="1642493952801" />
+    <state width="1431" height="224" key="GridCell.Tab.0.left" timestamp="1642493952801">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="224" key="GridCell.Tab.0.left/0.0.1474.864@0.0.1474.864" timestamp="1642492265222" />
-    <state width="1431" height="224" key="GridCell.Tab.0.right" timestamp="1642492265223">
+    <state width="1431" height="224" key="GridCell.Tab.0.left/0.0.1474.864@0.0.1474.864" timestamp="1642493952801" />
+    <state width="1431" height="224" key="GridCell.Tab.0.right" timestamp="1642493952801">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="224" key="GridCell.Tab.0.right/0.0.1474.864@0.0.1474.864" timestamp="1642492265223" />
+    <state width="1431" height="224" key="GridCell.Tab.0.right/0.0.1474.864@0.0.1474.864" timestamp="1642493952801" />
   </component>
 </project>

@@ -3,3 +3,8 @@ pub mod panic;
 pub mod option_and_unwrap;
 pub mod option_and_unwrap_unpacking_options_with_question_mark;
 pub mod option_and_unwrap_map_combinator;
+pub mod option_and_unwrap_and_then_combinator;
+pub mod result;
+pub mod result_map_for_result;
+pub mod result_aliases_for_result;
+pub mod result_early_returns;

@@ -283,6 +283,16 @@ fn main() {
     println!("----------------------- error_handling::option_and_unwrap_unpacking_options_with_question_mark::main(); 结束 --------------------------");
     error_handling::option_and_unwrap_map_combinator::main();
     println!("----------------------- error_handling::option_and_unwrap_map_combinator::main(); 结束 --------------------------");
+    error_handling::option_and_unwrap_and_then_combinator::main();
+    println!("----------------------- error_handling::option_and_unwrap_and_then_combinator::main(); 结束 --------------------------");
+    error_handling::result::main();
+    println!("----------------------- error_handling::result::main(); 结束 --------------------------");
+    error_handling::result_map_for_result::main();
+    println!("----------------------- error_handling::result_map_for_result::main(); 结束 --------------------------");
+    error_handling::result_aliases_for_result::main();
+    println!("----------------------- error_handling::result_aliases_for_result::main(); 结束 --------------------------");
+    error_handling::result_early_returns::main();
+    println!("----------------------- error_handling::result_early_returns::main(); 结束 --------------------------");
 
 
 }

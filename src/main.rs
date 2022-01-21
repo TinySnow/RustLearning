@@ -309,6 +309,22 @@ fn main() {
     println!("----------------------- error_handling::multiple_error_types_wrapping_errors::main(); 结束 --------------------------");
     error_handling::iterating_over_results::main();
     println!("----------------------- error_handling::iterating_over_results::main(); 结束 --------------------------");
+    std_library_types::std_library_types::main();
+    println!("----------------------- std_library_types::std_library_types::main(); 结束 --------------------------");
+    std_library_types::box_stack_and_heap::main();
+    println!("----------------------- std_library_types::box_stack_and_heap::main(); 结束 --------------------------");
+    std_library_types::vectors::main();
+    println!("----------------------- std_library_types::vectors::main(); 结束 --------------------------");
+    std_library_types::strings::main();
+    println!("----------------------- std_library_types::strings::main(); 结束 --------------------------");
+    std_library_types::option::main();
+    println!("----------------------- std_library_types::option::main(); 结束 --------------------------");
+    std_library_types::result::main();
+    println!("----------------------- std_library_types::result::main(); 结束 --------------------------");
+    std_library_types::result_question_mark::main();
+    println!("----------------------- std_library_types::result_question_mark::main(); 结束 --------------------------");
+    std_library_types::panic::main();
+    println!("----------------------- std_library_types::panic::main(); 结束 --------------------------");
 
 
 }

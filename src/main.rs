@@ -16,7 +16,7 @@ mod scoping_rules;
 mod traits;
 mod macro_rules;
 mod error_handling;
-
+mod std_library_types;
 
 fn main() {
     hello_world::hello_world::main();
@@ -293,6 +293,22 @@ fn main() {
     println!("----------------------- error_handling::result_aliases_for_result::main(); 结束 --------------------------");
     error_handling::result_early_returns::main();
     println!("----------------------- error_handling::result_early_returns::main(); 结束 --------------------------");
+    error_handling::result_introducing_question_mark::main();
+    println!("----------------------- error_handling::result_introducing_question_mark::main(); 结束 --------------------------");
+    error_handling::multiple_error_types::main();
+    println!("----------------------- error_handling::multiple_error_types::main(); 结束 --------------------------");
+    error_handling::multiple_error_types_pulling_results_out_of_options::main();
+    println!("----------------------- error_handling::multiple_error_types_pulling_results_out_of_options::main(); 结束 --------------------------");
+    error_handling::multiple_error_types_defining_an_error_type::main();
+    println!("----------------------- error_handling::multiple_error_types_defining_an_error_type::main(); 结束 --------------------------");
+    error_handling::multiple_error_types_boxing_errors::main();
+    println!("----------------------- error_handling::multiple_error_types_boxing_errors::main(); 结束 --------------------------");
+    error_handling::multiple_error_types_other_uses_of_question_mark::main();
+    println!("----------------------- error_handling::multiple_error_types_other_uses_of_question_mark::main(); 结束 --------------------------");
+    error_handling::multiple_error_types_wrapping_errors::main();
+    println!("----------------------- error_handling::multiple_error_types_wrapping_errors::main(); 结束 --------------------------");
+    error_handling::iterating_over_results::main();
+    println!("----------------------- error_handling::iterating_over_results::main(); 结束 --------------------------");
 
 
 }

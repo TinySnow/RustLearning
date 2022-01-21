@@ -65,11 +65,6 @@
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RunManager" selected="Cargo.Run learning">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Run learning" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="command" value="run --package learning --bin learning" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
@@ -100,6 +95,11 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Cargo.Run learning" />
@@ -124,7 +124,8 @@
       <workItem from="1642388249931" duration="10112000" />
       <workItem from="1642475925055" duration="10405000" />
       <workItem from="1642566836846" duration="9109000" />
-      <workItem from="1642685912867" duration="798000" />
+      <workItem from="1642685912867" duration="1061000" />
+      <workItem from="1642737173814" duration="2276000" />
     </task>
     <servers />
   </component>
@@ -156,21 +157,21 @@
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="468" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1474.864@0.0.1474.864" timestamp="1642233286804" />
-    <state width="1431" height="224" key="GridCell.Tab.0.bottom" timestamp="1642686573113">
+    <state width="1431" height="224" key="GridCell.Tab.0.bottom" timestamp="1642739456104">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="224" key="GridCell.Tab.0.bottom/0.0.1474.864@0.0.1474.864" timestamp="1642686573113" />
-    <state width="1431" height="224" key="GridCell.Tab.0.center" timestamp="1642686573112">
+    <state width="1431" height="224" key="GridCell.Tab.0.bottom/0.0.1474.864@0.0.1474.864" timestamp="1642739456104" />
+    <state width="1431" height="224" key="GridCell.Tab.0.center" timestamp="1642739456103">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="224" key="GridCell.Tab.0.center/0.0.1474.864@0.0.1474.864" timestamp="1642686573112" />
-    <state width="1431" height="224" key="GridCell.Tab.0.left" timestamp="1642686573112">
+    <state width="1431" height="224" key="GridCell.Tab.0.center/0.0.1474.864@0.0.1474.864" timestamp="1642739456103" />
+    <state width="1431" height="224" key="GridCell.Tab.0.left" timestamp="1642739456103">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="224" key="GridCell.Tab.0.left/0.0.1474.864@0.0.1474.864" timestamp="1642686573112" />
-    <state width="1431" height="224" key="GridCell.Tab.0.right" timestamp="1642686573113">
+    <state width="1431" height="224" key="GridCell.Tab.0.left/0.0.1474.864@0.0.1474.864" timestamp="1642739456103" />
+    <state width="1431" height="224" key="GridCell.Tab.0.right" timestamp="1642739456103">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="224" key="GridCell.Tab.0.right/0.0.1474.864@0.0.1474.864" timestamp="1642686573113" />
+    <state width="1431" height="224" key="GridCell.Tab.0.right/0.0.1474.864@0.0.1474.864" timestamp="1642739456103" />
   </component>
 </project>

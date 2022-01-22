@@ -68,6 +68,12 @@ println!("============ 实现结束 =============");
 
     - Is <font color=red>NOT</font> included in the main function because it can run as a test;
 
+- Package std_library_types -> File rc.rs, arc.rs:
+
+    - This two passages are new in English docs, thus no Chinese version.
+    
+    - The arc.rs source code includes thread, so it may causes different situation at runtime.
+
 #### Chinese：
 
 - 所有注释是从《通过例子学 Rust 中文版》中拷贝而来的。
@@ -91,3 +97,9 @@ println!("============ 实现结束 =============");
 - macro_rules 包 -> dry.rs 文件：
 
     - <font color=red>不包含</font>在程序主函数中运行，因为它可以作为一个测试独立运行。
+    
+- std_library_types 包 -> rc.rs, arc.rs 文件：
+
+    - 这两篇为英文文档中新增内容，所以没有中文版本。
+    
+    - arc.rs 源码文件包含多线程内容，所以可能造成运行时输出情况不一致。

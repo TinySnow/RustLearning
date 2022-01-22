@@ -338,6 +338,12 @@ fn main() {
     println!("----------------------- std_library_types::arc::main(); 结束 --------------------------");
     std_misc::std_misc::main();
     println!("----------------------- std_misc::std_misc::main(); 结束 --------------------------");
+    std_misc::threads::main();
+    println!("----------------------- std_misc::threads::main(); 结束 --------------------------");
+    std_misc::threads_map_reduce::main();
+    println!("----------------------- std_misc::threads_map_reduce::main(); 结束 --------------------------");
+    std_misc::channel::main();
+    println!("----------------------- std_misc::channel::main(); 结束 --------------------------");
 
 
 }

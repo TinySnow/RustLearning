@@ -6,3 +6,8 @@ pub mod option;
 pub mod result;
 pub mod result_question_mark;
 pub mod panic;
+pub mod hashmap;
+pub mod hashmap_alternate_or_custom_key_types;
+pub mod hashmap_hashset;
+pub mod rc;
+pub mod arc;

@@ -17,6 +17,7 @@ mod traits;
 mod macro_rules;
 mod error_handling;
 mod std_library_types;
+mod std_misc;
 
 fn main() {
     hello_world::hello_world::main();
@@ -325,6 +326,18 @@ fn main() {
     println!("----------------------- std_library_types::result_question_mark::main(); 结束 --------------------------");
     std_library_types::panic::main();
     println!("----------------------- std_library_types::panic::main(); 结束 --------------------------");
+    std_library_types::hashmap::main();
+    println!("----------------------- std_library_types::hashmap::main(); 结束 --------------------------");
+    std_library_types::hashmap_alternate_or_custom_key_types::main();
+    println!("----------------------- std_library_types::hashmap_alternate_or_custom_key_types::main(); 结束 --------------------------");
+    std_library_types::hashmap_hashset::main();
+    println!("----------------------- std_library_types::hashmap_hashset::main(); 结束 --------------------------");
+    std_library_types::rc::main();
+    println!("----------------------- std_library_types::rc::main(); 结束 --------------------------");
+    std_library_types::arc::main();
+    println!("----------------------- std_library_types::arc::main(); 结束 --------------------------");
+    std_misc::std_misc::main();
+    println!("----------------------- std_misc::std_misc::main(); 结束 --------------------------");
 
 
 }

@@ -58,6 +58,6 @@ fn comp_sci_student_greeting(student: &dyn CompSciStudent) -> String {
 // }
 
 pub fn main() {
-    // let test: &dyn CompSciStudent = TestStudent { name: "杨懿".parse().unwrap() };
-    // comp_sci_student_greeting(test);
+    // let testing: &dyn CompSciStudent = TestStudent { name: "杨懿".parse().unwrap() };
+    // comp_sci_student_greeting(testing);
 }

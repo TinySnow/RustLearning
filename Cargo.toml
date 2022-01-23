@@ -9,3 +9,5 @@ edition = "2018"
 #clap = "2.27.1" # 来自 crates.io
 #rand = { git = "https://github.com/rust-lang-nursery/rand" } # 来自网上的仓库
 #bar = { path = "../bar" } # 来自本地文件系统的路径
+
+#pretty_assertions = "0.4.0"

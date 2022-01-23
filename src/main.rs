@@ -18,6 +18,9 @@ mod macro_rules;
 mod error_handling;
 mod std_library_types;
 mod std_misc;
+mod testing;
+mod unsafe_operations;
+mod compatibility;
 
 fn main() {
     hello_world::hello_world::main();
@@ -352,6 +355,36 @@ fn main() {
     println!("----------------------- std_misc::file_io_open::main(); 结束 --------------------------");
     std_misc::file_io_create::main();
     println!("----------------------- std_misc::file_io_create::main(); 结束 --------------------------");
-
-
+    std_misc::file_io_read_line::main();
+    println!("----------------------- std_misc::file_io_read_line::main(); 结束 --------------------------");
+    std_misc::child_processes::main();
+    println!("----------------------- std_misc::child_processes::main(); 结束 --------------------------");
+    std_misc::child_processes_pipes::main();
+    println!("----------------------- std_misc::child_processes_pipes::main(); 结束 --------------------------");
+    std_misc::child_processes_wait::main();
+    println!("----------------------- std_misc::child_processes_wait::main(); 结束 --------------------------");
+    std_misc::filesystem_operations::main();
+    println!("----------------------- std_misc::filesystem_operations::main(); 结束 --------------------------");
+    std_misc::program_arguments::main();
+    println!("----------------------- std_misc::program_arguments::main(); 结束 --------------------------");
+    std_misc::program_arguments_argument_parsing::main();
+    println!("----------------------- std_misc::program_arguments_argument_parsing::main(); 结束 --------------------------");
+    std_misc::foreign_function_interface::main();
+    println!("----------------------- std_misc::foreign_function_interface::main(); 结束 --------------------------");
+    testing::testing::main();
+    println!("----------------------- testing::testing::main(); 结束 --------------------------");
+    // testing::unit_testing::main();
+    // println!("----------------------- testing::unit_testing::main(); 结束 --------------------------");
+    // testing::documentation_testing::main();
+    // println!("----------------------- testing::documentation_testing::main(); 结束 --------------------------");
+    // testing::integration_testing::main();
+    // println!("----------------------- testing::integration_testing::main(); 结束 --------------------------");
+    // testing::dev_dependencies::main();
+    // println!("----------------------- testing::dev_dependencies::main(); 结束 --------------------------");
+    unsafe_operations::unsafe_operations::main();
+    println!("----------------------- unsafe_operations::unsafe_operations::main(); 结束 --------------------------");
+    compatibility::compatibility::main();
+    println!("----------------------- compatibility::compatibility::main(); 结束 --------------------------");
+    compatibility::raw_identifiers::main();
+    println!("----------------------- compatibility::raw_identifiers::main(); 结束 --------------------------");
 }

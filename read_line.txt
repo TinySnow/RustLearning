@@ -1,0 +1,7 @@
+This is file content of src/std_misc/file_io_read_line.rs file.
+We are so happy to learn Rust.
+Today I'll gonna play games.
+Learning Rust...
+Playing games...
+All the things have been done.
+Goodnight!

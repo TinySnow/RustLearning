@@ -344,6 +344,14 @@ fn main() {
     println!("----------------------- std_misc::threads_map_reduce::main(); 结束 --------------------------");
     std_misc::channel::main();
     println!("----------------------- std_misc::channel::main(); 结束 --------------------------");
+    std_misc::path::main();
+    println!("----------------------- std_misc::path::main(); 结束 --------------------------");
+    std_misc::file_io::main();
+    println!("----------------------- std_misc::file_io::main(); 结束 --------------------------");
+    std_misc::file_io_open::main();
+    println!("----------------------- std_misc::file_io_open::main(); 结束 --------------------------");
+    std_misc::file_io_create::main();
+    println!("----------------------- std_misc::file_io_create::main(); 结束 --------------------------");
 
 
 }

@@ -1,0 +1,1 @@
+This is file content of src/std_misc/file_io_create.rs file.

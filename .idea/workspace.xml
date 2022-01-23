@@ -64,12 +64,13 @@
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Projects\Rust\learning" />
+      <recent name="F:\Projects\Rust\learning\target\debug" />
+    </key>
+  </component>
   <component name="RunManager" selected="Cargo.Run learning">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Run learning" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="command" value="run --package learning --bin learning" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
@@ -100,6 +101,11 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Cargo.Run learning" />
@@ -126,7 +132,8 @@
       <workItem from="1642566836846" duration="9109000" />
       <workItem from="1642685912867" duration="1061000" />
       <workItem from="1642737173814" duration="6973000" />
-      <workItem from="1642829632181" duration="3905000" />
+      <workItem from="1642829632181" duration="4582000" />
+      <workItem from="1642907238736" duration="1604000" />
     </task>
     <servers />
   </component>
@@ -154,25 +161,25 @@
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="543" y="148" key="#com.intellij.ide.util.MemberChooser/0.0.1474.864@0.0.1474.864" timestamp="1642573281918" />
-    <state x="468" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1642233286804">
+    <state x="468" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1642908749998">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="468" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1474.864@0.0.1474.864" timestamp="1642233286804" />
-    <state width="1431" height="224" key="GridCell.Tab.0.bottom" timestamp="1642832901691">
+    <state x="468" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1474.864@0.0.1474.864" timestamp="1642908749998" />
+    <state width="1431" height="224" key="GridCell.Tab.0.bottom" timestamp="1642908848658">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="224" key="GridCell.Tab.0.bottom/0.0.1474.864@0.0.1474.864" timestamp="1642832901691" />
-    <state width="1431" height="224" key="GridCell.Tab.0.center" timestamp="1642832901690">
+    <state width="1431" height="224" key="GridCell.Tab.0.bottom/0.0.1474.864@0.0.1474.864" timestamp="1642908848658" />
+    <state width="1431" height="224" key="GridCell.Tab.0.center" timestamp="1642908848658">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="224" key="GridCell.Tab.0.center/0.0.1474.864@0.0.1474.864" timestamp="1642832901690" />
-    <state width="1431" height="224" key="GridCell.Tab.0.left" timestamp="1642832901690">
+    <state width="1431" height="224" key="GridCell.Tab.0.center/0.0.1474.864@0.0.1474.864" timestamp="1642908848658" />
+    <state width="1431" height="224" key="GridCell.Tab.0.left" timestamp="1642908848658">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="224" key="GridCell.Tab.0.left/0.0.1474.864@0.0.1474.864" timestamp="1642832901690" />
-    <state width="1431" height="224" key="GridCell.Tab.0.right" timestamp="1642832901691">
+    <state width="1431" height="224" key="GridCell.Tab.0.left/0.0.1474.864@0.0.1474.864" timestamp="1642908848658" />
+    <state width="1431" height="224" key="GridCell.Tab.0.right" timestamp="1642908848658">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="224" key="GridCell.Tab.0.right/0.0.1474.864@0.0.1474.864" timestamp="1642832901691" />
+    <state width="1431" height="224" key="GridCell.Tab.0.right/0.0.1474.864@0.0.1474.864" timestamp="1642908848658" />
   </component>
 </project>

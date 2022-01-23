@@ -21,6 +21,7 @@ mod std_misc;
 mod testing;
 mod unsafe_operations;
 mod compatibility;
+mod meta;
 
 fn main() {
     hello_world::hello_world::main();
@@ -387,4 +388,10 @@ fn main() {
     println!("----------------------- compatibility::compatibility::main(); 结束 --------------------------");
     compatibility::raw_identifiers::main();
     println!("----------------------- compatibility::raw_identifiers::main(); 结束 --------------------------");
+    meta::meta::main();
+    println!("----------------------- meta::meta::main(); 结束 --------------------------");
+    meta::documentation::main();
+    println!("----------------------- meta::documentation::main(); 结束 --------------------------");
+    meta::playpen::main();
+    println!("----------------------- meta::playpen::main(); 结束 --------------------------");
 }
